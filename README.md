@@ -1,8 +1,10 @@
 ## Convolutional neural network(CNN) for tectonic faults mapping on low-quality seismic data
 - CNNC is developed specifically for Low-quality sesimic data which is common for survey condusted in onshore setting resulting in noizy data. Good interpretation results are achived through pre procesing of input seismic data and training CNN to identify faults on additionally processed seismica data
+- CNN is based on U-net architecture
 - It is originally developed for processing using Google Colabaratory
 - SEG-Y file given in this project can be process using free vesion of colab, bigger SEG-Y filed will require subscription
 - Running on desktop will require minor code adjustment
+- To try it without adjusting code, creat folder: "NN_for_tectonic_faults_mapping" and upload repo into it
 
 ## Example of Low-quality seismic data processing
 
